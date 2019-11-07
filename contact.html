@@ -1,0 +1,69 @@
+<!Doctype html>
+	<head>
+		<title>We Are Atrial</title>
+		<link rel= "stylesheet" href="atrial.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script src="atrial.js"></script>
+	<head>
+	<body>
+		<header>
+			<h1>We Are Atrial</h1>
+		</header>
+		<nav>
+			<ul id="mainNav">
+				<li><a href="index.html">Home</a>
+				<li><a href="media.html">Media</a></li>
+				<li><a href="contact.html" class="active">Contact</a></li>
+				<li><a href="about.html">About</a></li>
+			</ul>
+		</nav>
+		<section>
+		<p id="contactinfo">
+			For business inquiries, please fill out this form.  For all other contact, please email us at <span style="color:#d2232a;">atrialband@gmail.com</span>
+		</p>
+		<div class="container">
+			<form action="process.php" method="POST">
+				<div class="row">
+					<div class="col-25">
+						<label style="font-size:20px;">First Name</label>
+					</div>
+					<div class="col-75">
+						<input type="text" name="firstName" placeholder="Enter First Name">
+					</div>
+				</div>
+			<br>
+				<div class="row">
+					<div class="col-25">
+						<label style="font-size:20px;">Last Name</label>
+					</div>
+					<div class="col-75">
+						<input type="text" name="firstName" placeholder="Enter Last Name">	
+					</div>
+				</div>
+			<br>
+				<div class="row">
+					<div class="col-25">
+						<label style="font-size:20px;">Email</label>
+					</div>
+					<div class="col-75">
+						<input type="email" name="email" placeholder="Enter Email Address">
+					</div>
+				</div>
+			<br>
+				<div class="row">
+					<div class="col-25">
+						<label style="font-size:20px;">Message</label>
+					</div>
+					<div class="col-75">
+						<textarea name="message"></textarea>
+					</div>
+				</div>
+			<br>
+				<input type="submit" name="submit" value="submit">
+				</form>
+			</div>
+		</section>
+			<footer id="mainFooter">
+		<p>Copyright &copy; Atrial Band 2019<p>
+	</footer>
+	
