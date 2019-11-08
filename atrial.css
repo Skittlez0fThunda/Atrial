@@ -183,6 +183,7 @@ aside{
 	float:right;
 }
 #newRelease{
+	text-align:center;
 	padding:60px;
 }
 #showSchedule{
